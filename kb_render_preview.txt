@@ -1,0 +1,84 @@
+# Hotel Knowledge
+- Name: Hotel Arthur
+- Address: Vuorikatu 19, 00100 Helsinki, Finland
+- City: Helsinki
+- Reception Phone: +358 9 173 441
+- Reception Email: reception@hotelarthur.fi
+
+## Policies
+- Check-in (direct booking): from 14:00
+- Check-in (other): from 15:00
+- Check-out: by 12:00
+- Luggage storage: Complimentary, locked but unguarded luggage room at reception (own risk).
+- Pets allowed: True
+- Pet rooms limited: True
+- Pet fee €/night: 10
+- Must inform when booking: True
+- Non-smoking hotel: True
+- E-cigarettes banned: True
+- Cleaning fee from €: 250
+- Minors policy: Under 18s can stay alone only with prior hotel approval and written guardian consent; availability may be restricted at certain times.
+- Cards at hotel: Visa Debit, Visa Credit, Mastercard Debit, Mastercard Credit, Visa Electron, Maestro, American Express, Diners Club
+
+## Amenities
+- Wi‑Fi: Free high-speed Wi-Fi in rooms and public areas.
+- Breakfast hours (Mon–Fri): 06:30–10:00
+- Breakfast hours (Sat–Sun/Holidays): 07:30–11:00
+- Room‑service breakfast: 25.00 €/person (subject to change)
+- Private saunas (count): 2
+- Sauna session (min): 60
+- Sauna price direct €/person: 8
+- Sauna price other €/person: 10
+- Includes towels: True
+- Book at reception: True
+- Rooms w/ private sauna: Sir Arthur Suite (7th floor), Ateljee room (9th floor)
+- Parking recommendation: P-Kluuvi parking hall next to the hotel
+- Max vehicle height (m): 2.3
+- Entrance address: Puutarhakatu 1 (drive to levels C or D; follow exit toward Kaisaniemenkatu)
+- Street parking: Paid on nearby streets with limited availability; typical 4 €/hour and time limits apply (see city info).
+- Step‑free WC locations: Restaurant, 4th floor (key from reception)
+- Wheelchair to meeting wing: Stair climber available (not for electric wheelchairs); meeting wing lacks an elevator.
+- Accessible rooms: 2
+- Accessibility notes: Doors 80–90 cm; no space for patient hoist in rooms; lift door width ~91 cm.
+
+## Location & Transport
+- Nearest metro: Helsingin Yliopisto
+- Nearby trams: 2, 3, 5, 6, 6T, 9
+- Walk from Central Station: About 10 minutes from Central Station.
+- Airport trains: I and P commuter trains to Helsinki Central Station (approx. 28–33 min).
+- Airport buses: 600 and 415N to Rautatientori / Elielinaukio (approx. 45–50 min).
+- Taxi note: Fixed-price taxis available at arrivals level at HEL.
+
+## FAQ Examples
+- EN Q1: What time is check-in and check-out?
+  EN A1: Direct bookings: from 14:00. Other channels or groups: from 15:00. Check-out by 12:00.
+- FI K1: Mihin aikaan sisään- ja uloskirjautuminen?
+  FI V1: Suorat varaukset klo 14:00 alkaen, muut kanavat/ryhmät klo 15:00 alkaen. Uloskirjautuminen klo 12:00.
+- EN Q2: Do you have a sauna?
+  EN A2: Yes—two private saunas. A 60-min slot costs approx. 8 €/person for direct bookings, otherwise 10 €/person; includes towels. Book at reception.
+- FI K2: Onko hotellissa sauna?
+  FI V2: Kyllä—kaksi tilaussaunaa. 60 min vuoro n. 8 €/hlö suoravaraukselle, muuten 10 €/hlö; pyyhkeet sisältyvät. Varaa vastaanotosta.
+- EN Q3: Where can I park?
+  EN A3: No on-site parking. We recommend the P-Kluuvi parking hall next to the hotel (entrance Puutarhakatu 1; max height 2.3 m).
+- FI K3: Missä voi pysäköidä?
+  FI V3: Ei omaa pysäköintiä. Suosittelemme P-Kluuvia hotellin vieressä (sisäänajo Puutarhakatu 1; korkeus 2,3 m).
+- EN Q4: Are pets allowed?
+  EN A4: A limited number of pet rooms are available for an extra ~10 €/night. Please inform us when booking. Pets cannot be left unattended.
+- FI K4: Saako lemmikin tuoda?
+  FI V4: Rajoitettu määrä lemmikkihuoneita, lisämaksu n. 10 €/yö. Ilmoita varatessa. Lemmikkiä ei saa jättää yksin.
+- EN Q5: Is smoking allowed?
+  EN A5: No—this is a non-smoking hotel. Cleaning fee from 250 € for violations; e-cigarettes also banned indoors.
+- FI K5: Onko tupakointi sallittua?
+  FI V5: Ei—hotelli on savuton. Siivousmaksu alkaen 250 €; myös sähkötupakka kielletty sisätiloissa.
+- EN Q6: What are breakfast hours?
+  EN A6: Mon–Fri 06:30–10:00; Sat–Sun & holidays 07:30–11:00.
+- FI K6: Milloin aamiainen on?
+  FI V6: Ma–pe 06:30–10:00; la–su & pyhät 07:30–11:00.
+- EN Q7: How do I get from the airport?
+  EN A7: I/P trains to Central Station (~28–33 min). Buses 600 and 415N to the center (~45–50 min). Taxis available at arrivals with fixed prices.
+- FI K7: Miten pääsen lentokentältä?
+  FI V7: I/P-lähijunat Rautatieasemalle (~28–33 min). Bussit 600 ja 415N keskustaan (~45–50 min). Taksit kiinteähintaisia.
+
+## Escalation Templates
+- EN: I’m not fully sure about that detail. I can ask our front desk for you or connect you via reception@hotelarthur.fi / +358 9 173 441.
+- FI: En ole täysin varma tästä. Voin kysyä vastaanotolta tai yhdistää sinut: reception@hotelarthur.fi / +358 9 173 441.
