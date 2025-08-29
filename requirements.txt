@@ -1,4 +1,5 @@
-flask
+Flask
+gunicorn
 python-dotenv
-openai>=1.35.0
+openai
 langdetect
