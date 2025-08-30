@@ -188,20 +188,32 @@ html, body {
 }
 
 
-/* --- Mobile friendly chat layout fix --- */
+/* --- Chat layout, mobile friendly remake --- */
+html, body {
+  height: 100%;       /* baseline so flex containers can fill */
+  margin: 0;
+  padding: 0;
+}
+
 .chat-container {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Let iframe parent control actual size */
-  max-height: 100%;
-  overflow: hidden;
+  height: 100%;       /* fill iframe */
+  min-height: 320px;  /* never collapse on mobile */
+  background: #fff;
 }
+
+/* Messages area scrolls, with room at bottom for input bar */
 .chat-messages {
   flex: 1 1 auto;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 60px; /* avoid overlap with input bar */
+  padding: 10px;
+  padding-bottom: 70px; /* space so last message isn't hidden */
+  box-sizing: border-box;
 }
+
+/* Input bar pinned to bottom */
 .chat-input {
   flex: 0 0 auto;
   display: flex;
@@ -214,15 +226,21 @@ html, body {
   bottom: 0;
   z-index: 10;
 }
+
+/* Input field flexes, send button stays visible */
 .chat-input input[type="text"],
 .chat-input textarea {
   flex: 1 1 auto;
   min-width: 0;
+  font-size: 14px;
+  padding: 10px;
 }
+
 .chat-input button {
   flex: 0 0 auto;
   padding: 10px 14px;
   font-size: 14px;
   max-width: 30%;
+  white-space: nowrap;
 }
 
