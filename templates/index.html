@@ -27,5 +27,29 @@
   </div>
 
   <script src="/script.js" defer></script>
+<script>
+(function() {
+  function postHeight() {
+    try {
+      var h = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
+      window.parent && window.parent.postMessage({ type: 'chatbot:contentHeight', height: h }, '*');
+    } catch (e) {}
+  }
+  // Observe DOM changes (messages rendered etc.)
+  if ('ResizeObserver' in window) {
+    try { new ResizeObserver(postHeight).observe(document.documentElement); } catch (e) {}
+  }
+  try { new MutationObserver(postHeight).observe(document.body, { childList: true, subtree: true }); } catch (e) {}
+  window.addEventListener('load', postHeight);
+  document.addEventListener('DOMContentLoaded', postHeight);
+  // Optional helper you can call when a new chat message arrives
+  window.notifyParentNewMessage = function() {
+    try {
+      window.parent && window.parent.postMessage({ type: 'chatbot:newMessage' }, '*');
+      postHeight();
+    } catch (e) {}
+  };
+})();
+</script>
 </body>
 </html>

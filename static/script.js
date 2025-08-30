@@ -110,6 +110,7 @@ function addMessage(role, text) {
   msg.className = "message " + role;
   msg.textContent = text;
   chatMessages.appendChild(msg);
+try { window.notifyParentNewMessage && window.notifyParentNewMessage(); } catch(e) {}
   chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
@@ -128,6 +129,7 @@ function showOrientationBanner(){
   orientationBanner.textContent = "Rotate to portrait for best chat experience.";
   orientationBanner.style.cssText = "position:fixed;bottom:0;left:0;right:0;background:#1F2A44;color:#fff;padding:8px 12px;text-align:center;font-size:12px;z-index:99999;";
   document.body.appendChild(orientationBanner);
+try { window.notifyParentNewMessage && window.notifyParentNewMessage(); } catch(e) {}
 }
 function hideOrientationBanner(){
   if (!orientationBanner) return;

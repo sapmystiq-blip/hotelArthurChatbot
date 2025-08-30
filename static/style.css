@@ -186,3 +186,43 @@ html, body {
 @media (max-width: 520px) and (orientation: landscape){
   #chat-window { display: none; }
 }
+
+
+/* --- Mobile friendly chat layout fix --- */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Let iframe parent control actual size */
+  max-height: 100%;
+  overflow: hidden;
+}
+.chat-messages {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 60px; /* avoid overlap with input bar */
+}
+.chat-input {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
+.chat-input input[type="text"],
+.chat-input textarea {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.chat-input button {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  font-size: 14px;
+  max-width: 30%;
+}
+
