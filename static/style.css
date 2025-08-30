@@ -244,3 +244,34 @@ html, body {
   white-space: nowrap;
 }
 
+
+
+/* --- Fix: prevent send button clipping on mobile --- */
+.chat-input {
+  width: 100%;
+  box-sizing: border-box;
+  gap: 6px;               /* slightly smaller gap to save width */
+  padding-left: 8px;
+  padding-right: 8px;
+  overflow: visible;      /* don't clip children */
+}
+.chat-input * { box-sizing: border-box; }
+
+.chat-input input[type="text"],
+.chat-input textarea {
+  flex: 1 1 auto;
+  min-width: 0;           /* allow shrinking to avoid overflow */
+}
+
+.chat-input button {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 34%;         /* cap on very narrow screens */
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .chat-input button { max-width: 40%; }
+  .chat-messages { padding-bottom: 84px; } /* extra space for taller input bar on phones */
+}
+
